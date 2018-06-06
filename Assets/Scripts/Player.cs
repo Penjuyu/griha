@@ -5,11 +5,14 @@ using UnityEngine;
 public class Player : MonoBehaviour {
     public float speed = 10;
     public float rotSpeed = 100;
-    public float jumpSpeed = 30; 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    public float jumpSpeed = 30;
+    GameController gameController;
+
+
+    // Use this for initialization
+    void Start() {
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+    }
 
     // Update is called once per frame
     void Update() {
@@ -21,19 +24,32 @@ public class Player : MonoBehaviour {
         {
             movY = jumpSpeed * Time.deltaTime;
         }
-        transform.Translate(movX, movY, movZ);
+        transform.Translate(0, movY, movZ);
         transform.Rotate(0, rotY, 0);
-    }    
+    }
 
     void OnCollisionEnter(Collision collision)
-    {        
-      if(collision.gameObject.tag == "Enemy")
+    {
+        if (collision.gameObject.tag == "Enemy")
         {
             Debug.Log("Game Over");
             GetComponent<Renderer>().material.color = Color.red; //получаем компонент
-            Time.timeScale = 0;// останавливает время в игре
+           // Time.timeScale = 0;// останавливает время в игре
+            gameController.Lose(); //проигрываем
+            enabled = false;
         }
-
-
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Finish")
+        {
+            //Time.timeScale = 0; //останавливаем время в игре
+            gameController.Win();//побеждаем
+            enabled = false;
+        }
+    }
+       
+        
 }
+
+

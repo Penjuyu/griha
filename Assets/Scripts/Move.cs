@@ -21,7 +21,7 @@ public class Move : MonoBehaviour
             speed = -speed;
             
         }
-        transform.Translate(speed, 0, 0);
+        transform.Translate(speed * Time.deltaTime, 0, 0);
 
 
     }
