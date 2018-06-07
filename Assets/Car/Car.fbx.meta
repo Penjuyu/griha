@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 3386720730f5b5443acfd038393d170c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Car
+    100004: wheel1
+    100006: Wheel2
+    100008: Wheel3
+    100010: Wheel4
+    100012: Wheel5
+    100014: Wheel6
+    100016: Wheel7
+    100018: Wheel8
+    400000: Car
+    400002: //RootNode
+    400004: wheel1
+    400006: Wheel2
+    400008: Wheel3
+    400010: Wheel4
+    400012: Wheel5
+    400014: Wheel6
+    400016: Wheel7
+    400018: Wheel8
+    2100000: Material.012
+    2100002: Material.010
+    2100004: Material.006
+    2100006: Material.009
+    2100008: Material.002
+    2100010: Material.008
+    2100012: Material.013
+    2100014: Material.011
+    2100016: Material.001
+    2100018: Material.005
+    2100020: Material.004
+    2100022: Material.003
+    2300000: Car
+    2300002: wheel1
+    2300004: Wheel2
+    2300006: Wheel3
+    2300008: Wheel4
+    2300010: Wheel5
+    2300012: Wheel6
+    2300014: Wheel7
+    2300016: Wheel8
+    3300000: Car
+    3300002: wheel1
+    3300004: Wheel2
+    3300006: Wheel3
+    3300008: Wheel4
+    3300010: Wheel5
+    3300012: Wheel6
+    3300014: Wheel7
+    3300016: Wheel8
+    4300000: Wheel3
+    4300002: Wheel6
+    4300004: Wheel2
+    4300006: Wheel4
+    4300008: Wheel8
+    4300010: Wheel7
+    4300012: Wheel5
+    4300014: wheel1
+    4300016: Car
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8cfb6da22cc945c4581929f762764fe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 2134967a01d20a640bdc97e7fda3860f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 1b6798285e37765468c44c95583477d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 042d26899729daa4bb9f6163e144afa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 9376f3ffcbf879c49ac78bd4ad5998e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 94f03f5559e64f94d8d221af8ff357b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 5c85404e10e350748be0c2710324ff19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 2dd701575bf31344db0e2f83574e8ebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 7fced0a629f92ea41988a8c433215f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: 9e3e06873ec261d47bc7e2b61297f87c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: 439a001f43197a14a9f3a07e68eae554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 2d13a9829b4714843a435fc9d7d6e5a6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -33,7 +33,7 @@ public class Player : MonoBehaviour {
         if (collision.gameObject.tag == "Enemy")
         {
             Debug.Log("Game Over");
-            GetComponent<Renderer>().material.color = Color.red; //получаем компонент
+           // GetComponent<Renderer>().material.color = Color.red; //получаем компонент
            // Time.timeScale = 0;// останавливает время в игре
             gameController.Lose(); //проигрываем
             enabled = false;
